@@ -1,15 +1,24 @@
 import { file, FileSystemRouter, serve } from "bun";
 
-const router = new FileSystemRouter({
-  style: "nextjs",
-  dir: import.meta.dir + "/pages",
-});
-console.log(router);
+// const router = new FileSystemRouter({
+//   style: "nextjs",
+//   dir: import.meta.dir + "/pages",
+// });
+// console.log(router);
 
 const server = serve({
   port: 5432,
   fetch(req) {
     const now = new Date().toISOString();
+    const path = new URL(req.url).pathname;
+
+    if (path === "/") {
+      const status = 200;
+      const staticFile = file(import.meta.dir + "/index.html");
+
+      console.log(`${now} - [${status}] ${req.url}`);
+      return new Response(staticFile, { status: 200 });
+    }
 
     try {
       const status = 200;
