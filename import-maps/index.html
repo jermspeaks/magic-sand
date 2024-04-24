@@ -5,9 +5,6 @@
     <link rel="icon" href="https://fav.farm/🔥" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Import Maps</title>
-  </head>
-  <body>
-    <div id="app"></div>
     <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap -->
     <script type="importmap">
       {
@@ -18,12 +15,15 @@
         }
       }
     </script>
+  </head>
+  <body>
+    <div id="app"></div>
     <script type="module">
       /* eslint-disable */
       import { useState } from "react";
       import { createRoot } from "react-dom";
-      import { formatMoney } from "import-maps/index";
-      createRoot(document.querySelector(`#app`)).render("Hello world!");
+      import { formatMoney } from "utils";
+      createRoot(document.querySelector(`#app`)).render(formatMoney(100.2365));
     </script>
   </body>
 </html>

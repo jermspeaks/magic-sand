@@ -1,5 +1,6 @@
 
 export function formatMoney(amount = 0) {
+  console.log('amount', amount);
   const options = {
     style: `currency`,
     currency: `USD`,
@@ -13,5 +14,5 @@ export function formatMoney(amount = 0) {
 
   const formatter = Intl.NumberFormat(`en-US`, options);
 
-  return formatter.format(amount / 100);
+  return formatter.format(amount);
 }
