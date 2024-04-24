@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="https://fav.farm/🔥" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Import Maps</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script/type/importmap -->
+    <script type="importmap">
+      {
+        "imports": {
+          "react-dom": "https://esm.sh/react-dom",
+          "react": "https://esm.sh/react",
+          "utils": "./utils.js"
+        }
+      }
+    </script>
+    <script type="module">
+      /* eslint-disable */
+      import { useState } from "react";
+      import { createRoot } from "react-dom";
+      import { formatMoney } from "import-maps/index";
+      createRoot(document.querySelector(`#app`)).render("Hello world!");
+    </script>
+  </body>
+</html>
