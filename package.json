@@ -16,6 +16,9 @@
   },
   "dependencies": {
     "@types/bun": "^1.1.0",
+    "csv-parser": "^3.0.0",
+    "csv-writer": "^1.6.0",
+    "dotenv": "^16.4.5",
     "vite-plugin-list-directory-contents": "^1.4.5"
   }
 }
