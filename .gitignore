@@ -200,3 +200,10 @@ poetry.toml
 pyrightconfig.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python
+
+python-scripts/speech-parsing/american_presidency_project
+python-scripts/speech-parsing/cspan_speeches
+python-scripts/speech-parsing/presidential_speeches
+python-scripts/speech-parsing/rev_speeches
+python-scripts/speech-parsing/tweets
+python-scripts/speech-parsing/votesmart_speeches
