@@ -203,6 +203,7 @@ pyrightconfig.json
 
 python-scripts/speech-parsing/american_presidency_project/**/*.txt
 python-scripts/speech-parsing/cspan_speeches/*.txt
+python-scripts/speech-parsing/cspan_speeches_formatted/*.txt
 python-scripts/speech-parsing/presidential_speeches/*.txt
 python-scripts/speech-parsing/rev_speeches/*.txt
 python-scripts/speech-parsing/tweets/*.txt
