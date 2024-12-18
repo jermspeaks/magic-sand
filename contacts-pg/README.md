@@ -33,3 +33,4 @@ For the `contacts.csv` feel free to upload the latest export from google contact
 - Export easily to other programs, like Obsidian (interoperability) - my "rolodex"
   - Easily re-import information I discover about people
 - Cron to grab the latest contacts daily for any changes
+- We need to make daily back-ups snapshots
