@@ -1,0 +1,58 @@
+10;diez
+11;once
+12;doce
+13;trece
+14;catorce
+15;quince
+16;dieciséis
+17;diecisiete
+18;dieciocho
+19;diecinueve
+20;veinte
+30;treinta
+40;cuarenta
+50;cincuenta
+60;sesenta
+70;setenta
+80;ochenta
+90;noventa
+100;cien
+10,21;diez veintiuno
+30,45;treinta cuarenta y cinco
+50,64;cincuenta sesenta y cuatro
+70,87;Setenta ochenta y siete 
+90,01;novecientos uno
+1o;Primero
+2o;Segundo
+3o;Tercero
+4o;Cuarto
+5o;Quinto
+6o;Sexto
+7o;Séptimo
+8o;Octavo
+9o;Noveno
+10o;Décimo
+11o;undécimo
+12o;duodécimo
+13o;decimotercero
+14o;decimocuarto
+15o;decimoquinto
+16o;decimosexto
+17o;decimoséptimo
+18o;decimoctavo
+19o;decimonoveno
+20o;vigésimo
+21o;vigésimo primero
+22o;vigésimo segundo
+23o;vigésimo tercero
+24o;vigésimo cuarto
+30o;trigésimo
+31o;trigésimo primero
+32o;trigésimo segundo
+40o;cuadragésimo
+50o;quincuagésimo
+60o;sexagésimo
+70o;septuagésimo
+80o;octogésimo
+90o;nonagésimo
+100o;centésimo
