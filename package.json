@@ -8,6 +8,7 @@
     "caddy": "caddy start",
     "dev": "bunx --bun vite",
     "importmaps": "bunx --bun run importmaps.ts",
+    "lang": "bunx --bun run ./language-learning-scripts/index.ts",
     "preview": "vite preview"
   },
   "devDependencies": {
