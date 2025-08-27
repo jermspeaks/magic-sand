@@ -1,0 +1,13 @@
+{
+  "name": "cleanup-daily-notes",
+  "version": "1.0.0",
+  "description": "Script to update daily note markdown files",
+  "main": "update-daily-notes.js",
+  "scripts": {
+    "start": "node update-daily-notes.js",
+    "test": "node update-daily-notes.js ./test-notes"
+  },
+  "dependencies": {
+    "gray-matter": "^4.0.3"
+  }
+}
